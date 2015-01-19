@@ -44,7 +44,7 @@
     self.navigationItem.rightBarButtonItem = rightBarButton;
     self.loadingView.hidden = YES;
     
-    self.title = @"Article";
+    self.title = @"Artigo";
     
     NSString* content;
     if(self.article.htmlContent) {

@@ -230,7 +230,7 @@ BOOL finishedLoadingTickets = NO;
                 cell = [[HSReportIssueCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ReportCellIdentifier];
             }
             
-            cell.textLabel.text = @"Report an issue";
+            cell.textLabel.text = @"Reportar um problema";
             cell.selectionStyle = UITableViewCellSelectionStyleGray;
             
             return cell;

@@ -50,7 +50,7 @@
 {
     [super viewDidLoad];
     
-    submitBarItem = [[UIBarButtonItem alloc] initWithTitle:@"Submit" style:UIBarButtonItemStyleDone target:self action:@selector(submitPressed:)];
+    submitBarItem = [[UIBarButtonItem alloc] initWithTitle:@"Enviar" style:UIBarButtonItemStyleDone target:self action:@selector(submitPressed:)];
     self.navigationItem.rightBarButtonItem = submitBarItem;
     
     HSAppearance* appearance = [[HSHelpStack instance] appearance];

@@ -49,7 +49,7 @@
     HSAppearance* appearance = [[HSHelpStack instance] appearance];
     self.view.backgroundColor = [appearance getBackgroundColor];
    
-    self.title = @"Creating New Issue";
+    self.title = @"Reportar Problema";
 }
 
 - (IBAction)submitPressed:(id)sender
